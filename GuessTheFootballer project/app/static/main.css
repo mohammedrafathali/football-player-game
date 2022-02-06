@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+  body 
+   {
+      background-image: url("fifa1.jpg");
+      background-color: #d6caca;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+   }
+   body
+   .overlay{
+     width: 100%;
+     height: 100%;
+     font-size: 25px;
+     color: rgb(88, 23, 192);
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+   }
+   .overlay{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    color: rgb(88, 23, 192);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+   }
+  
+  #welcome {
+    position: absolute;
+    text-align: center;
+
+    color: white;
+    width: 100vw;
+    left: 0px;
+    top: 0px;
+  }
+  #welcome h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #go {
+    width: 10%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: rgb(12, 233, 41);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 360px;
+    transition: 0.3s ease background-color;
+    }
+#go:hover {
+  background-color: rgb(19, 18, 18);
+  color: rgb(49, 131, 17);
+}
+
+  #gotogame {
+      width: 10%;
+      border: none;
+      outline: none;
+      padding: 20px;
+      font-size: 18px;
+      border-radius: 8px;
+      font-family: "Montserrat";
+      color: rgb(12, 233, 41);
+      text-align: center;
+      cursor: pointer;
+      margin-top: 360px;
+      transition: 0.3s ease background-color;
+      }
+  #gotogame:hover {
+    background-color: rgb(19, 18, 18);
+    color: rgb(49, 131, 17);
+  }
+    
+
+
+
+   
